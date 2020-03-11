@@ -50,6 +50,12 @@ MNIST.
 найти здесь:
 [https://github.com/alexmasterdi/Dnn/tree/GAN](https://github.com/alexmasterdi/Dnn/tree/GAN).
 
+Модель, сконвертированная в формат OpenVINO и код для ее запуска в OpenVINO 
+доступны здесь: 
+[https://github.com/itlab-vision/OpenVINO-GAN-DEMO](https://github.com/itlab-vision/OpenVINO-GAN-DEMO).
+Модель весом всего в 5 мегабайт генерирует вот такие цифры.
+![OpenVINO digits](images/openvino-digits.png)
+
 ## Конвертация модели styleGAN в формат OpenVINO
 
 Конвертацую моделей в формат OpenVINO можно производить из нескольких базовых 
