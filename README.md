@@ -4,4 +4,10 @@
 
 ## Список моделей
 
-- [GAN MNIST](https://github.com/itlab-vision/OpenVINO-GAN-DEMO/blob/master/sources/models/gan_digits.onnx) - модель, генерирующая изображения цифры на основе набора MNIST.
+- [GAN MNIST](https://github.com/itlab-vision/OpenVINO-GAN-DEMO/blob/master/sources/models/MNIST) - модель, генерирующая изображения цифры на основе набора MNIST.
+- [Candy](https://github.com/itlab-vision/OpenVINO-GAN-DEMO/blob/master/sources/models/Candy)
+- [Mosaic](https://github.com/itlab-vision/OpenVINO-GAN-DEMO/blob/master/sources/models/Mosaic)
+- [Pointilism](https://github.com/itlab-vision/OpenVINO-GAN-DEMO/blob/master/sources/models/Pointilism)
+- [Rain_Princess](https://github.com/itlab-vision/OpenVINO-GAN-DEMO/blob/master/sources/models/Rain_Princess)
+- [Udnie](https://github.com/itlab-vision/OpenVINO-GAN-DEMO/blob/master/sources/models/Udnie)
+
