@@ -49,6 +49,7 @@ def main():
     out_image = np.clip(out_image, 0, 255)
     img = Image.fromarray(out_image.astype(np.uint8))
     img = img.resize((w, h))
+
     img.show()
 
 
