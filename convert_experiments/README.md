@@ -9,7 +9,7 @@
 - В методах forward и backward находится Pytorch реализация этой функции
 - В методе symbolic находится onnx реализация этой функции  
 
-```
+```python
 class MyReLUFunction(Function):
 
     @staticmethod
