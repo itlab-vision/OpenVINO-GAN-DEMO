@@ -38,6 +38,10 @@ class MyReLU(nn.Module):
 
 ## Источники:
 
+https://github.com/opencv/mmdetection/blob/ote/tools/export.py
+
 https://github.com/Russzheng/ONNX_custom_layer
+
 https://github.com/pytorch/pytorch/blob/master/torch/onnx/symbolic_opset9.py
+
 https://github.com/onnx/tutorials/blob/master/PyTorchCustomOperator/README.md 
