@@ -11,21 +11,21 @@
 
 ```python
 class MyReLUFunction(Function):
-
-    @staticmethod
-    def symbolic(g, input):
-        return g.op('Relu', input)
-
+    
     @staticmethod
     def forward(ctx, input):
         ctx.input = ctx
         return input.clamp(0)
-
+    
     @staticmethod
     def backward(ctx, grad_output):
         grad_input = grad_output.clone()
         grad_input.masked_fill_(ctx.input < 0, 0)
         return grad_input
+       
+    @staticmethod
+    def symbolic(g, input):
+        return g.op('Relu', input)
 
 class MyReLU(nn.Module):
 
