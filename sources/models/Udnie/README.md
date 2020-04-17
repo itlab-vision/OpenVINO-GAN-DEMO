@@ -5,3 +5,8 @@
 #### Запуск модели
 
 `python <Путь к репозиторию>\sources\models\Udnie\Udnie.py --model <Путь к репозиторию>\sources\models\Udnie\Udnie.xml --weights <Путь к репозиторию>\sources\models\Udnie\Udnie.bin --image <Путь к изображению>`
+
+#### Пример работы модели
+
+![Исходное изображение](img_before.jpg)
+![Полученное изображение](img_after.jpg)

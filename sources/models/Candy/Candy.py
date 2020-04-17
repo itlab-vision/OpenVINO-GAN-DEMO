@@ -28,6 +28,7 @@ def main():
     image = image.resize((224, 224))
     x = np.array(image).astype('float32')
     x = np.transpose(x, [2, 0, 1])
+    
     log.info("Load model")
     net = IENetwork(model=args.model, weights=args.weights)
     exec_net = ie.load_network(net, "CPU")
@@ -35,13 +36,10 @@ def main():
     # Set input and output of our model
     input_blob = next(iter(net.inputs))
     out_blob = next(iter(net.outputs))
-
-
+    
     log.info("Run model")
     result = exec_net.infer(inputs={input_blob: x})
 
-    
-    
     log.info("Show result")
     result = result[out_blob]
     out_image = np.array(result[0])
