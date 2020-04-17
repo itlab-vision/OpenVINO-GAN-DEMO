@@ -1,0 +1,267 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="res3.conv1.conv2d.weight" out_port_id="res3.conv1.conv2d.weight"/>
+		<IR id="95" name="onnx_initializer_node_res3.conv1.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="97" out_port_id="97"/>
+		<IR id="116" name="97/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="67" out_port_id="67"/>
+		<IR id="16" name="67" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="deconv1.conv2d.weight" out_port_id="deconv1.conv2d.weight"/>
+		<IR id="175" name="onnx_initializer_node_deconv1.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="98" out_port_id="98"/>
+		<IR id="117" name="98" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res1.conv1.conv2d.weight" out_port_id="res1.conv1.conv2d.weight"/>
+		<IR id="43" name="onnx_initializer_node_res1.conv1.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="140" out_port_id="140"/>
+		<IR id="174" name="140" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res5.conv2.conv2d.weight" out_port_id="res5.conv2.conv2d.weight"/>
+		<IR id="160" name="onnx_initializer_node_res5.conv2.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv1.conv2d.weight" out_port_id="conv1.conv2d.weight"/>
+		<IR id="4" name="onnx_initializer_node_conv1.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="106" out_port_id="106"/>
+		<IR id="143" name="106" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv3.conv2d.weight" out_port_id="conv3.conv2d.weight"/>
+		<IR id="30" name="onnx_initializer_node_conv3.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="79" out_port_id="79"/>
+		<IR id="55" name="79" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="102" out_port_id="102"/>
+		<IR id="130" name="102" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="91" out_port_id="91"/>
+		<IR id="94" name="91" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="90" out_port_id="90"/>
+		<IR id="91" name="90" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="169" out_port_id="169"/>
+		<IR id="189" name="169" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="173" out_port_id="173"/>
+		<IR id="202" name="173" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="101" out_port_id="101"/>
+		<IR id="129" name="101/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="66" out_port_id="66"/>
+		<IR id="13" name="66" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="110" out_port_id="110"/>
+		<IR id="156" name="110" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="113" out_port_id="113"/>
+		<IR id="168" name="113/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="89" out_port_id="89"/>
+		<IR id="90" name="89/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="output1" out_port_id="0"/>
+		<IR id="206" name="output1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="171" out_port_id="171"/>
+		<IR id="198" name="171/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res2.conv2.conv2d.weight" out_port_id="res2.conv2.conv2d.weight"/>
+		<IR id="82" name="onnx_initializer_node_res2.conv2.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="103" out_port_id="103"/>
+		<IR id="133" name="103" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res5.conv1.conv2d.weight" out_port_id="res5.conv1.conv2d.weight"/>
+		<IR id="147" name="onnx_initializer_node_res5.conv1.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="73" out_port_id="73"/>
+		<IR id="38" name="73/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="109" out_port_id="109"/>
+		<IR id="155" name="109/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="81" out_port_id="81"/>
+		<IR id="64" name="81/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="65" out_port_id="65"/>
+		<IR id="12" name="65/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="77" out_port_id="77"/>
+		<IR id="51" name="77/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="168" out_port_id="168"/>
+		<IR id="186" name="Interpolate/168" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="69" out_port_id="69"/>
+		<IR id="25" name="69/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res4.conv2.conv2d.weight" out_port_id="res4.conv2.conv2d.weight"/>
+		<IR id="134" name="onnx_initializer_node_res4.conv2.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="111" out_port_id="111"/>
+		<IR id="159" name="111" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="75" out_port_id="75"/>
+		<IR id="42" name="75" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="94" out_port_id="94"/>
+		<IR id="104" name="94" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res4.conv1.conv2d.weight" out_port_id="res4.conv1.conv2d.weight"/>
+		<IR id="121" name="onnx_initializer_node_res4.conv1.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="107" out_port_id="107"/>
+		<IR id="146" name="107" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="86" out_port_id="86"/>
+		<IR id="78" name="86" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="74" out_port_id="74"/>
+		<IR id="39" name="74" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="85" out_port_id="85"/>
+		<IR id="77" name="85/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="139" out_port_id="139"/>
+		<IR id="171" name="Interpolate/139" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="172" out_port_id="172"/>
+		<IR id="199" name="172" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res2.conv1.conv2d.weight" out_port_id="res2.conv1.conv2d.weight"/>
+		<IR id="69" name="onnx_initializer_node_res2.conv1.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res3.conv2.conv2d.weight" out_port_id="res3.conv2.conv2d.weight"/>
+		<IR id="108" name="onnx_initializer_node_res3.conv2.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="71" out_port_id="71"/>
+		<IR id="29" name="71" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="99" out_port_id="99"/>
+		<IR id="120" name="99" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="63" out_port_id="63"/>
+		<IR id="3" name="63" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="93" out_port_id="93"/>
+		<IR id="103" name="93/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input1" out_port_id="input1"/>
+		<IR id="0" name="input1" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="70" out_port_id="70"/>
+		<IR id="26" name="70" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="78" out_port_id="78"/>
+		<IR id="52" name="78" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="82" out_port_id="82"/>
+		<IR id="65" name="82" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="105" out_port_id="105"/>
+		<IR id="142" name="105/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="83" out_port_id="83"/>
+		<IR id="68" name="83" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="114" out_port_id="114"/>
+		<IR id="169" name="114" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="143" out_port_id="143"/>
+		<IR id="184" name="143" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="deconv3.conv2d.weight" out_port_id="deconv3.conv2d.weight"/>
+		<IR id="203" name="onnx_initializer_node_deconv3.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res1.conv2.conv2d.weight" out_port_id="res1.conv2.conv2d.weight"/>
+		<IR id="56" name="onnx_initializer_node_res1.conv2.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2.conv2d.weight" out_port_id="conv2.conv2d.weight"/>
+		<IR id="17" name="onnx_initializer_node_conv2.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="deconv2.conv2d.weight" out_port_id="deconv2.conv2d.weight"/>
+		<IR id="190" name="onnx_initializer_node_deconv2.conv2d.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="95" out_port_id="95"/>
+		<IR id="107" name="95" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="87" out_port_id="87"/>
+		<IR id="81" name="87" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="142" out_port_id="142"/>
+		<IR id="183" name="142/Ins_Norm/add_" out_port_id="2"/>
+	</map>
+</mapping>
